@@ -2,10 +2,10 @@
 public class Declaraciones_Operaciones {
 
 	public static void main(String[] args) {
-		double a=5;
-		double b=7;
-		double c=b/a;
-		System.out.println(" C : "+c);
+		final double c=2.54;
+		double cm=6;
+		double res=cm/c;
+		System.out.println(" En "+cm+" cm hay  "+res+" pulgadas");
 
 	}
 
