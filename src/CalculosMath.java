@@ -2,9 +2,10 @@
 public class CalculosMath {
 
 	public static void main(String[] args) {
-		double a=9;
-		double raiz=Math.sqrt(a);
-		System.out.println(raiz);
+		double a=5.8F;
+		int res=(int)Math.round(a);
+		int res1=(int)Math.pow(5,3);
+		System.out.println(res1);
 
 	}
 
